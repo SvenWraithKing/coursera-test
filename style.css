@@ -1,0 +1,121 @@
+body {
+	height: 1900px;
+}
+#myImage {
+	margin: -30px;
+	padding: -30px;
+	height: 100px;
+	width: 1885px;
+    background-color: black;
+    color: gray;
+  
+}
+#myLogo {
+	float: left;
+	height: 10px;
+	width: 10px;
+	padding-top: 25px;
+	margin-left: 600px;
+	display: flex;
+}
+body{
+	background-color: gray;
+}
+h1{
+	margin-left: 650px;
+    padding-top: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Georgia";
+    display: flex;
+    flex-direction: row;
+
+}
+.mainContainer {
+	margin-top: 30px;
+	margin-left: -10px;
+	height: 1000px;
+	width: 1866px;
+	display: flex;
+	flex-direction: row;
+}
+.containerOne {
+	margin-top: 100px;
+	margin-left: 233px;
+	height: 500px;
+	width: 300px;
+	background-color: black;
+	/*display: flex;
+	flex-direction: row; */
+	box-shadow: 3px 3px 3px black;
+}
+.containerTwo {
+	margin-top: 100px;
+	margin-left: 233px;
+	height: 500px;
+	width: 300px;
+	background-color: black;
+	/*display: flex;
+	flex-direction: row; */
+	box-shadow: 3px 3px 3px black;
+	overflow: hidden;
+} 
+.containerThree {
+	margin-top: 100px;
+	margin-left: 233px;
+	height: 500px;
+	width: 300px;
+	background-color: black;
+	/*display: flex;
+	flex-direction: row; */
+	box-shadow: 3px 3px 3px black;
+} 
+#imgFirst {
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 10px;
+}
+.secondHeader {
+	margin-top: 0px;
+	margin-left: 110px;
+	margin-bottom: -20px;
+	font-family: Comic Sans,sans-serif;
+	font-size: 30px;
+    color: gray;
+    
+   
+}
+.secondText{
+margin-top: 300px;
+
+margin-left: -20px;
+color: white;	
+font-size: 20px;
+font-family: "Franklin Gothic Medium";
+padding: ;
+
+}
+.containerTwo:hover .secondText{
+	animation-name: slidein;
+	animation-duration: 1.5s;
+	animation-delay: 0s;
+	animation-fill-mode: forwards;
+    
+	
+
+}
+@keyframes slidein {
+  from {
+    margin-top: 500px;
+  }
+
+  to {
+    margin-top: 0px;
+
+}
+}
+li{
+	 list-style-type: none;
+	 padding-top: 10px;
+
+}
