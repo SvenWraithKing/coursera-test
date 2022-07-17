@@ -1,167 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
-	height: 100;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  color: ;
+  background-color:#373E98;
 }
-#myImage {
-	margin: -30px;
-	padding: -30px;
-	height: 100px;
-	width: 1901px;
-    background-color:#262927 ;
-    color: gray;
+.container {
+  margin-left: 40px;
+}
+#header-nav {
+  background-color: #9e957b;
+  border-radius: 0;
+  border: 0;
+}
+#logo-img {
+  background-image: url(images/gachi3.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+ 
+}
+.navbar-brand {
+ 
+}
+.navbar-brand h1 { /* Restaurant name */
+  color:#373E98 ;
+  font-size: 2.1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
   
+  line-height: .75;
+  text-decoration: none;
 }
-#logoUSA, #logoGER {
-	margin-left: -30px;
-}
-#myLogo {
-	float: left;
-	height: 10px;
-	width: 10px;
-	padding-top: 25px;
-	margin-left: 700px;
-	display: flex;
-}
-#logoText {
- margin-left: 100px;
- color: darkgray;
-}	
-
-body{
-	background-color: gray;
-}
-h1{
-	margin-left: 650px;
-    padding-top: 30px;
-    font-size: 40px;
-    font-weight: bold;
-    font-family: "Georgia";
-    display: flex;
-    flex-direction: row;
-
-}
-.mainContainer {
-	margin-top: 30px;
-	margin-left: -10px;
-	height: 800px;
-	width: 1880px;
-	background-image: url(https://static.warthunder.ru/upload/image/media/screenshots/45_459397f634d43f036c064cff4b0ad1a2.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	display: flex;
-	flex-direction: row;
-}
-.containerOne {
-	margin-top: 100px;
-	margin-left: 177px;
-	height: 500px;
-	width: 340px;
-	background-color: #262927;
-	/*display: flex;
-	flex-direction: row; */
-	box-shadow: 3px 3px 3px black;
-	/* border: 3px solid green; */
-	overflow: hidden;
-	border: 5px solid white;
-}
-.containerTwo {
-	margin-top: 100px;
-	margin-left: 233px;
-	height: 500px;
-	width: 340px;
-	background-color: #262927;
-	/*display: flex;
-	flex-direction: row; */
-	box-shadow: 3px 3px 3px black;
-	overflow: hidden;
-	border: 5px solid white;
-} 
-.containerThree {
-	margin-top: 100px;
-	margin-left: 233px;
-	height: 500px;
-	width: 340px;
-	background-color: #262927;
-	/*display: flex;
-	flex-direction: row; */
-	box-shadow: 3px 3px 3px black;
-	overflow: hidden;
-	border:5px solid white;
-} 
-#imgSecond, #imgFirst, #imgThree {
-	margin-left: 40px;
-	margin-right: 30px;
-	margin-top: 10px;
-} 
-
-.secondHeader, .firstHeader, .thirdHeader{
-	margin-top: 0px;
-	text-align: center;
-	/*margin-left: 110px; */
-	margin-bottom: -20px; 
-	font-family: Comic Sans,sans-serif;
-	font-size: 30px;
-    color: gray;
-    
-   
-}
-.secondText, .firstText, .thirdText{
-margin-top: 300px;
- margin-left: 20px; 
-color: white;	
-font-size: 20px;
-font-family: "Franklin Gothic Medium";
-
-
-}
-.containerTwo:hover .secondText{
-	animation-name: slidein;
-	animation-duration: 1s;
-	animation-delay: 0s;
-	animation-fill-mode: forwards;
-}
-.containerOne:hover .firstText{
-	animation-name: slidein;
-	animation-duration: 1s;
-	animation-delay: 0s;
-	animation-fill-mode: forwards;
-}
-.containerThree:hover .thirdText{
-	animation-name: slidein;
-	animation-duration: 1s;
-	animation-delay: 0s;
-	animation-fill-mode: forwards;
-}
-@keyframes slidein {
-  from {
-    margin-top: 500px;
+  .navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+  } 
+  a{
+    text-decoration: none;
   }
-
-  to {
-    margin-top: 0px;
-
+  .navbar-brand p { 
+  color: black;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
 }
-}
-li{
-	 list-style-type: none;
-	 padding-top: 10px;
-
-}
-.footer {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 50px;
-  background-color: #262927;
-}
-#footerText {
-	color: white;
-	margin-top: 15px;	
-	margin-left: 30px;
-}
-#footerTexttwo {
-	color: black; 
-	text-align: right;
-	margin-top: -10px;
-
+.navbar-brand p span { 
+  vertical-align: middle;
+  font-size: 20px;
+  font-family: 'Ibarra Real Nova', serif;
+  color: #373E98;
+  font-weight: bold;
 }

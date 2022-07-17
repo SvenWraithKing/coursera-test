@@ -1,60 +1,85 @@
 <!doctype html>
-<html>
-<link rel="stylesheet" href="style.css">
-<link rel="icon" href="image.png">
-<title>War thunder</title>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gachi Muchi Gym</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="icon" href="image.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap" rel="stylesheet">
+  </head>
 <body>
-<header id="myImage">
-    <div id="myLogo"><img src="image.png" width="50" height="50"> </div>
-    <div id="logoText"> <h1>My top 3 WarThunder tanks</h1> </div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+ <header>
+  <nav id="header-nav" class="navbar navbar-default">   <!-- весь навігаційний блок -->
+    <div class="container">    <!-- контейнер лого і назви -->
+      <div class="navbar-header"> <!-- лого бренду -->
+         <a href="index.html" class="float-start "> <!-- лого ТИКАБЕЛЬНИЙ -->
+        <div id="logo-img" class="d-sm-none d-md-block"></div>
+         <div class="navbar-brand"> <!-- назва бренду -->
+            <a href="google.com"><h1>Gachi Muchi Gym</h1></a> <!-- назва ТИКАБЕЛЬНА -->
+            <p>
+              <img src="images/gachi2.png" alt="Gachi" width="50" height="50"> <!-- лого Gachi -->
+              <span>Fucking slaves choise</span>
+            </p>
+          </div>
+      </div>
+    </div>
+  </nav>
  </header>
- <div class="mainContainer">
-<div class="containerOne">
-<img id="imgFirst" src="https://ru.warthunder.info/images/a/a6/M24SDF_Garage.jpg" width="260" height="200">
-<div class="firstHeader"><img id="logoUSA" src="https://ak.picdn.net/shutterstock/videos/3353237/thumb/7.jpg" width="30" height="25"><strong> M24 </strong></div>
- <div class="firstText">
-<ul>
-  <li>Engine power: 565 h.p.</li>
-  <li>Max speed: 63km/h</li> 
-  <li>75mm gun M6</li> 
-  <li>Reload time: 6.5sec.</li> 
-  <li>Weight: 18.4tonn</li>
-  <li>Armor: 25/25/19</li>
-  <li>Turret: 25/25/25</li>
-</ul> 
-  </div>
-</div>
-<div class="containerTwo">
- <img id="imgSecond" src="https://wiki.warthunder.com/images/thumb/b/b6/ArtImage2_M4A1_%2876%29_W.png/800px-ArtImage2_M4A1_%2876%29_W.png" width="260" height="200">
- <div class="secondHeader"><img id="logoUSA" src="https://ak.picdn.net/shutterstock/videos/3353237/thumb/7.jpg" width="30" height="25"><strong> M4A1 </strong></div>
-  <div class="secondText">
-<ul>
-  <li>Engine power: 763 h.p.</li>
-  <li>Max speed: 48km/h</li> 
-  <li>75mm gun M3</li> 
-  <li>Reload time: 6sec.</li> 
-  <li>Weight: 30tonn</li>
-  <li>Armor: 51/38/38</li>
-  <li>Turret: 76/51/51</li>
-</ul> 
-  </div>
-</div> 
-<div class="containerThree">
-<img id="imgThree" src="https://wiki.warthunder.com/images/thumb/0/00/ArtImage_Panther_D.png/800px-ArtImage_Panther_D.png" width="260" height="200">
-<div class="thirdHeader"><img id="logoGER" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/War_Ensign_of_Germany_%281938%E2%80%931945%29.svg/800px-War_Ensign_of_Germany_%281938%E2%80%931945%29.svg.png" width="30" height="25"><strong>Panther D</strong></div>
- <div class="thirdText">
-<ul>
-  <li>Engine power: 1240 h.p.</li>
-  <li>Max speed: 63km/h</li> 
-  <li>75mm gun KwK42</li> 
-  <li>Reload time: 7.4sec.</li> 
-  <li>Weight: 45.3tonn</li>
-  <li>Armor: 60/40/40</li>
-  <li>Turret: 100/45/45</li>
-</ul> 
-  </div>
-</div>
-<div class="footer"><div id="footerText">WraithKing &copy;Copyright</div><div id="footerTexttwo">Vanessa is gay</div></div>
-</body>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
 </html>
